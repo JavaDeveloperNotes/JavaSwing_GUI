@@ -6,8 +6,9 @@ public class Window2 extends JFrame {
 
     public Window2() {
         setTitle("Hello World");
-        setSize(400, 300);
+        setSize(600, 400);
         setLayout(null);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
     }
